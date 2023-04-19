@@ -208,7 +208,7 @@ while run:
             for text in intro_text2:
                 WIN.blit(intro_font.render(text, True, BLACK, WHITE), (WIDTH / 13, text_height))
                 text_height += 20
-        elif intro_title == 'Instructions':
+        else:
             for text in intro_text3:
                 WIN.blit(intro_font.render(text, True, BLACK, WHITE), (WIDTH / 13, text_height))
                 text_height += 20
